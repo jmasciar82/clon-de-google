@@ -60,85 +60,49 @@ header {
     border: #000000 2px solid;
     margin-left: 10px;
   }
+/* finaliza el header */
 
-  /* Aqui comienza el main */
+/* aca comienza el main */
 
-  main {
-    
-    display: flexbox;
+main {
+  margin-top: 50px;
+  text-align: center;
+  
+}
 
-    width: 100%;
-    
-    margin-top: 10rem;
-  }
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
 
-  .img_google {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-  }
+main .main-logo img {
+  width: 300px;
+}
 
-  .buscador {
-    background-color: transparent;
-    border: 1px rgba(0, 0, 0, 0.295) solid;
-    margin: 0;
-    padding: 10px;
-    color: rgba(0,0,0,.87);
-    border-radius: 50px;
-    width: 600px;
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border:1px solid #dfe1e5;
+  /* flex ayuda a alinear los elementos de forma lineal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
 
-    
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    
-    
-    
-    align-items: center;
-  }
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
 
-  .material-symbols-outlined {
-    
-    
-
-    
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 900,
-    'GRAD' 0,
-    'opsz' 48
-  }
-
-  #busca_caja {
-    font-size: 2rem;
-    
-    border: none;
-		outline: none;
-    
-
-  }
-
-  .btn {
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none; 
-    
-    
-  }
-
-  #lupa {
-    margin-top: 10px;
-  }
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+}
